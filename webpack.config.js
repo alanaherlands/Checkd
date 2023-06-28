@@ -18,7 +18,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/react', '@babel/preset-env']
+                        presets: ['@babel/preset-react', '@babel/preset-env']
                     }
                 }
             },
@@ -39,7 +39,9 @@ module.exports = {
         }),
     ],
     devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
-        port: 3000,
+        static: {
+            directory: path.resolve(__dirname, 'dist'),
+        },
+        port: 8080,
     },
 }

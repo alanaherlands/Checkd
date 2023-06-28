@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Parks</title>
-        <link rel="stylesheet" href="/styles.css">
-    </head>
-    <body>
-        <div id="app"></div>
-        <script src="/bundle.js"></script>
-    </body>
+<head>
+  <title>Parks</title>
+</head>
+<body>
+  <h1>Parks Search</h1>
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search for parks...">
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Search Results Section -->
+  <div id="searchResults">
+    <h2>Search Results</h2>
+    <ul id="parkList"></ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
 </html>
