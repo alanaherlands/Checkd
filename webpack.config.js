@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     mode: process.env.NODE_ENV,
     entry: {
-        src: './src/client/main.js'
+        src: './src/index.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -42,6 +42,6 @@ module.exports = {
         static: {
             directory: path.resolve(__dirname, 'dist'),
         },
-        port: 8080,
+        port: 3000,
     },
 }

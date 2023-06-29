@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+.app {
+    background: linear-gradient(to bottom right, #FFD700, #90EE90, #87CEFA, #FFB6C1);
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .header {
+        font-size: 24px;
+        font-weight: bold;
+        color:rgba(36, 33, 33, 0.15);
+        margin-bottom: 20px;
+    }
+  
+    .todo-list {
+      background: #b5b5b5;
+      border-radius: 4px;
+      padding: 10px;
+      max-width: 400px;
+  
+      .todo {
+        background: #f0f0f0;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        padding: 3px 10px;
+        font-size: 12px;
+        font-family: 'Belanosima', sans-serif;
+        margin-bottom: 6px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .done-button {
+            background: lightgreen;
+            margin-left: 10px;
+            border-radius: 4px;
+            box-shadow: none;
+        }
+      }
+    }
+  }
