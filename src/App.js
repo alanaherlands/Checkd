@@ -1,3 +1,5 @@
+// App.js original
+
 // import dependences and styles
 import React, { useState } from "react";
 import "./App.scss";

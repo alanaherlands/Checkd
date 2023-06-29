@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     mode: process.env.NODE_ENV,
+    target: 'web',
     entry: {
         src: './src/index.js'
     },
